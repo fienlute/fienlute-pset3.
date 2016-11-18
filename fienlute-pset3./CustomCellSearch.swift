@@ -10,12 +10,9 @@ import UIKit
 
 class CustomCellSearch: UITableViewCell {
 
-    @IBOutlet weak var logo: UIImageView!
-    
-    @IBOutlet weak var movieName: UILabel!
-    
+    @IBOutlet weak var movieLogo: UIImageView!
+    @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieYear: UILabel!
-    
     @IBOutlet weak var movieGrade: UILabel!
     
     override func awakeFromNib() {

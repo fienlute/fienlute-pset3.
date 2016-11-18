@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE693B511DDF6FF900BE8460 /* movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE693B501DDF6FF900BE8460 /* movies.swift */; };
+		EE693B531DDF83C000BE8460 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EE693B521DDF83C000BE8460 /* README.md */; };
 		EEDE48311DDB30ED00C47C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE48301DDB30ED00C47C5A /* AppDelegate.swift */; };
 		EEDE48331DDB30ED00C47C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE48321DDB30ED00C47C5A /* ViewController.swift */; };
 		EEDE48361DDB30ED00C47C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDE48341DDB30ED00C47C5A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE693B501DDF6FF900BE8460 /* movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movies.swift; sourceTree = "<group>"; };
+		EE693B521DDF83C000BE8460 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "fienlute-pset3./README.md"; sourceTree = "<group>"; };
 		EEDE482D1DDB30ED00C47C5A /* fienlute-pset3..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fienlute-pset3..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDE48301DDB30ED00C47C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEDE48321DDB30ED00C47C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		EEDE48241DDB30ED00C47C5A = {
 			isa = PBXGroup;
 			children = (
+				EE693B521DDF83C000BE8460 /* README.md */,
+				EE693B501DDF6FF900BE8460 /* movies.swift */,
 				EEDE482F1DDB30ED00C47C5A /* fienlute-pset3. */,
 				EEDE482E1DDB30ED00C47C5A /* Products */,
 			);
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE693B531DDF83C000BE8460 /* README.md in Resources */,
 				EEDE483B1DDB30ED00C47C5A /* LaunchScreen.storyboard in Resources */,
 				EEDE48381DDB30ED00C47C5A /* Assets.xcassets in Resources */,
 				EEDE48361DDB30ED00C47C5A /* Main.storyboard in Resources */,
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDE48431DDE357D00C47C5A /* CustomCellSearch.swift in Sources */,
+				EE693B511DDF6FF900BE8460 /* movies.swift in Sources */,
 				EEDE48451DDE6A1F00C47C5A /* ViewController2.swift in Sources */,
 				EEDE48331DDB30ED00C47C5A /* ViewController.swift in Sources */,
 				EEDE48311DDB30ED00C47C5A /* AppDelegate.swift in Sources */,
@@ -307,6 +315,7 @@
 				EEDE48411DDB30ED00C47C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
